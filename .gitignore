@@ -1,0 +1,20 @@
+# Gradle
+.gradle
+build/
+**/build/
+local.properties
+
+# Temp repos
+temp_repos/
+
+# Merge tooling (local only)
+merge_log.txt
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Compiled extensions (in root)
+*.cs3
+plugins.json

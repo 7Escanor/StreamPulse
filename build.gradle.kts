@@ -1,0 +1,125 @@
+import com.android.build.api.dsl.LibraryExtension
+import com.lagradost.cloudstream3.gradle.CloudstreamExtension
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
+
+buildscript {
+    val kotlinVersion = project
+        .findProperty("kotlin.version")
+        ?.toString()
+        ?: "2.4.0"
+
+    val androidGradlePluginVersion = project
+        .findProperty("android.gradle.plugin.version")
+        ?.toString()
+        ?: "9.1.1"
+
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://jitpack.io")
+    }
+
+    dependencies {
+        classpath("com.android.tools.build:gradle:$androidGradlePluginVersion")
+        classpath("com.github.recloudstream:gradle:-SNAPSHOT")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+    }
+}
+
+val cloudstreamApiVersion = providers.gradleProperty("cloudstream.api.version").orElse("pre-release").get()
+val kotlinxCoroutinesVersion = providers.gradleProperty("kotlinx.coroutines.version").orElse("1.11.0").get()
+val kotlinxSerializationVersion = providers.gradleProperty("kotlinx.serialization.version").orElse("1.11.0").get()
+val androidCompileSdkVersion = providers.gradleProperty("android.compileSdk.version").orElse("35").get().toInt()
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://jitpack.io")
+    }
+}
+
+fun Project.cloudstream(configuration: CloudstreamExtension.() -> Unit) =
+    extensions.getByType<CloudstreamExtension>().configuration()
+
+fun Project.android(configuration: LibraryExtension.() -> Unit) =
+    extensions.getByType<LibraryExtension>().configuration()
+
+subprojects {
+    apply(plugin = "com.android.library")
+    apply(plugin = "com.lagradost.cloudstream3.gradle")
+
+    cloudstream {
+        val repoUrl = System.getenv("GITHUB_REPOSITORY")?.let { "https://github.com/$it" }
+            ?: "https://github.com/lannaatv/StreamPulse"
+        setRepo(repoUrl)
+        authors = listOf("7Escanor")
+    }
+
+    android {
+        val phisherPluginsFile = project.rootProject.file("phisher_plugins.txt")
+        val isPhisher = if (phisherPluginsFile.exists()) {
+            phisherPluginsFile.readLines().contains(project.name)
+        } else {
+            false
+        }
+
+        val namespaceOverrides = java.util.Properties().apply {
+            val overridesFile = rootProject.file("plugin_namespaces.properties")
+            if (overridesFile.exists()) {
+                overridesFile.inputStream().use { load(it) }
+            }
+        }
+        val customNamespace = namespaceOverrides.getProperty(project.name)
+
+        namespace = customNamespace
+            ?: if (isPhisher) "com.phisher98" else "com.sad25kag" 
+        compileSdk = androidCompileSdkVersion
+
+        defaultConfig {
+            minSdk = 21
+        }
+
+        compileOptions {
+            sourceCompatibility = JavaVersion.VERSION_17
+            targetCompatibility = JavaVersion.VERSION_17
+        }
+
+        tasks.withType<KotlinJvmCompile>().configureEach {
+            compilerOptions {
+                jvmTarget.set(JvmTarget.JVM_17)
+
+                freeCompilerArgs.addAll(
+                    "-Xno-call-assertions",
+                    "-Xno-param-assertions",
+                    "-Xno-receiver-assertions",
+                    "-Xannotation-default-target=param-property",
+                )
+                optIn.add("com.lagradost.cloudstream3.Prerelease")
+            }
+        }
+    }
+
+    dependencies {
+        add("cloudstream", "com.lagradost:cloudstream3:$cloudstreamApiVersion")
+        add("implementation", kotlin("stdlib"))
+        add("implementation", "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinxCoroutinesVersion")
+        add("implementation", "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinxCoroutinesVersion")
+        add("implementation", "org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinxSerializationVersion")
+        add("implementation", "com.github.Blatzar:NiceHttp:0.4.18")
+        add("implementation", "com.squareup.okhttp3:okhttp:5.4.0")
+        add("implementation", "org.jsoup:jsoup:1.22.2")
+        add("implementation", "com.fasterxml.jackson.module:jackson-module-kotlin:2.22.0")
+        add("implementation", "com.fasterxml.jackson.core:jackson-databind:2.22.0")
+        add("implementation", "com.google.code.gson:gson:2.14.0")
+        add("implementation", "com.faendir.rhino:rhino-android:1.6.0")
+        add("implementation", "app.cash.quickjs:quickjs-android:0.9.2")
+        add("implementation", "me.xdrop:fuzzywuzzy:1.4.0")
+        add("implementation", "androidx.core:core-ktx:1.19.0")
+    }
+}
+
+tasks.register<Delete>("clean") {
+    delete(rootProject.layout.buildDirectory)
+}

@@ -1,0 +1,28 @@
+// use an integer for version numbers
+version = 42
+
+
+cloudstream {
+    // All of these properties are optional, you can safely remove them
+
+    description = "4K Movies Extension by HDHUB4U"
+    language    = "id"
+    authors = listOf("7Escanor")
+
+    /**
+    * Status int as the following:
+    * 0: Down
+    * 1: Ok
+    * 2: Slow
+    * 3: Beta only
+    * */
+    status = 1 // will be 3 if unspecified
+
+    // List of video source types. Users are able to filter for extensions in a given category.
+    // You can find a list of available types here:
+    // https://recloudstream.github.io/cloudstream/html/app/com.lagradost.cloudstream3/-tv-type/index.html
+    tvTypes = listOf("Movie","TvSeries")
+    iconUrl = "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://4khdhub.dad&size=256"
+
+    isCrossPlatform = false
+}

@@ -1,0 +1,5 @@
+# Daftar plugin yang di-build oleh Gradle.
+# Hapus file ini atau kosongkan untuk build SEMUA plugin.
+# Satu nama folder per baris.
+#
+# File dikosongkan agar semua plugin (termasuk hasil merge) ikut di-build.

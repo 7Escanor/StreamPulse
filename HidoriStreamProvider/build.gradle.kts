@@ -1,0 +1,24 @@
+version = 12
+
+cloudstream {
+    description = "HidoriStream — Streaming Anime Subtitle Indonesia"
+    language = "id"
+    authors = listOf("7Escanor")
+
+    /**
+     * Status int as the following:
+     * 0: Down
+     * 1: Ok
+     * 2: Slow
+     * 3: Beta only
+     */
+    status = 1
+
+    tvTypes = listOf(
+        "Anime",
+        "AnimeMovie",
+        "OVA"
+    )
+
+    iconUrl = "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://v8.hidoristream.online&size=%size%"
+}
