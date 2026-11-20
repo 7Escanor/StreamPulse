@@ -1,0 +1,833 @@
+[
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/4KHDHub.cs3",
+        "status": 1,
+        "version": 42,
+        "name": "4KHDHub",
+        "internalName": "4KHDHub",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "4K Movies Extension by HDHUB4U",
+        "fileSize": 66589,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://4khdhub.dad&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-5ad210aa6fed63fb5724df1f7f10d5faf2a48d06c404510f04ae2df7b6821cbf"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Alqanime.cs3",
+        "status": 1,
+        "version": 33,
+        "name": "Alqanime",
+        "internalName": "Alqanime",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Nonton & Download Anime Subtitle Indonesia",
+        "fileSize": 73271,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://cloudstream.zvlz.my.id/icon/alqanime.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-5aaac556e0c04f28cb055be0d21ba0c5aaa508868555da6af4458fce2976a8d8"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/AnichinMoe.cs3",
+        "status": 1,
+        "version": 49,
+        "name": "AnichinMoe",
+        "internalName": "AnichinMoe",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Anichin Moe",
+        "fileSize": 59296,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anichin.club&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-0665922d8ffc86bbece1782f83650f491290cb813528148bc15e62a442b1b313"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/AnimeBagus.cs3",
+        "status": 1,
+        "version": 12,
+        "name": "AnimeBagus",
+        "internalName": "AnimeBagus",
+        "authors": [
+            "7Escanor"
+        ],
+        "fileSize": 46953,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://tv2.animebagus.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-db01dc9cb8372cc69d9962f4d820111951aad30aa3de20c927d5260de7448834"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/AnimeIndo.cs3",
+        "status": 1,
+        "version": 27,
+        "name": "AnimeIndo",
+        "internalName": "AnimeIndo",
+        "authors": [
+            "7Escanor"
+        ],
+        "fileSize": 63521,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://anime-indo.lol&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-2c628bc5fd130b060aa859e43d2457f9627e93bc881faa3b394ec4ebdfcf86a1"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/AnimexinProvider.cs3",
+        "status": 1,
+        "version": 24,
+        "name": "AnimexinProvider",
+        "internalName": "AnimexinProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Animexin — Streaming Donghua Subtitle Indonesia",
+        "fileSize": 50790,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://animexin.dev&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-50c5fd6cbd36994d58d482630de6c1d9a0e3b8a8102781c762310fac81758c80"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Astronime.cs3",
+        "status": 1,
+        "version": 10,
+        "name": "Astronime",
+        "internalName": "Astronime",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Astronime - anime subtitle Indonesia, runtime-clean parser, player_ajax, Turbovid HLS, and Hydrax/Abyss resolver flow",
+        "fileSize": 40436,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://astronime.id&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-121323915c0a39eebb079cd3cba93efae1651791e84c222b83f19b5a5aa3d0b6"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Cinemax21Provider.cs3",
+        "status": 1,
+        "version": 14,
+        "name": "Cinemax21Provider",
+        "internalName": "Cinemax21Provider",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "CineMax21 — Streaming Movie and TV Series",
+        "fileSize": 241044,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://klikxxi.me&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-37babfb143f55dbe367593edce2ac078d75566e432a981067defa9f342ba432c"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/DonghuastreamBackup.cs3",
+        "status": 1,
+        "version": 19,
+        "name": "DonghuastreamBackup",
+        "internalName": "DonghuastreamBackup",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Donghuastream untuk donghua / Chinese anime.",
+        "fileSize": 40612,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/Kohi-den/extensions-source/927f9c68fd64ce52f6212ae633d0f0585eca3545/src/en/donghuastream/res/mipmap-xxxhdpi/ic_launcher.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-fa18d01bebafcd60e0768b683c7015f9ae5e47b5da3a571806ffcf14e3b61de7"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Donghub.cs3",
+        "status": 1,
+        "version": 18,
+        "name": "Donghub",
+        "internalName": "Donghub",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Donghub untuk donghua dan anime subtitle Indonesia.",
+        "fileSize": 36474,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://donghub.vip&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-a0245eb5cecab1b770f3910f9a70665eb42c247a35f06579981c407bd7c7f201"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/DracinSI.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "DracinSI",
+        "internalName": "DracinSI",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Provider CloudStream untuk Dracin Sub Indo - drama China subtitle Indonesia.",
+        "fileSize": 25154,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=dramacinasubindo.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-3489288444ea5736558523ddd64395bde90a8cc62eec5801d70dc199a57452b0"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Drakor.cs3",
+        "status": 1,
+        "version": 10,
+        "name": "Drakor",
+        "internalName": "Drakor",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Drakor — Streaming Drama Korean, Movie and TV Series",
+        "fileSize": 236520,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie",
+            "Anime"
+        ],
+        "iconUrl": "https://klikxxi.me/wp-content/uploads/2024/02/cropped-site-icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-f988406e837fb8edcfe0062f65737aca82def78222449f063369895ab86f264b"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/DrakoridProvider.cs3",
+        "status": 1,
+        "version": 16,
+        "name": "DrakoridProvider",
+        "internalName": "DrakoridProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Drakor.id - drama Asia subtitle Indonesia.",
+        "fileSize": 41768,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://drakorid.cam&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-54149467864e1b15f7b53af062d35ce933a84bbbb409115bbcc0102a2bd9e328"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/DrakorKita.cs3",
+        "status": 3,
+        "version": 16,
+        "name": "DrakorKita",
+        "internalName": "DrakorKita",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "DrakorKita - drama Korea, series, dan movie subtitle Indonesia",
+        "fileSize": 89821,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=drakor.kita.mobi&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-70fd6a052f3f2bf9de8971d28e199a546320582d5091de0fec8ba6edb90fd37d"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/DubbindoProvider.cs3",
+        "status": 1,
+        "version": 8,
+        "name": "DubbindoProvider",
+        "internalName": "DubbindoProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Dubbindo — status terbatas: provider masih dapat memuat sebagian link, tetapi banyak konten di website sumber sedang processing/mati, poster kosong, atau media tidak dapat diputar.",
+        "fileSize": 35566,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Cartoon",
+            "Anime",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=www.dubbindo.site&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-9852e9efed6176ed6567795a978cf48568e70ccc48b4addd6ada3f029d6f46b8"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Extractors.cs3",
+        "status": 1,
+        "version": 19,
+        "name": "Extractors",
+        "internalName": "Extractors",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Extractors for my sources",
+        "fileSize": 35599,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Others"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=google.com&sz=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-96b79f3a71689adf62f98bf2b2928374fb7de111fcf7cbe7ace4ccf8d2f0f3a9"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/FreeReels.cs3",
+        "status": 1,
+        "version": 30,
+        "name": "FreeReels",
+        "internalName": "FreeReels",
+        "authors": [
+            "AdiManu"
+        ],
+        "fileSize": 37717,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime",
+            "AsianDrama"
+        ],
+        "iconUrl": "https://free-reels.com/free-reels.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-4d5b37fb06d5e1d08a169ed2dd79bd230aa0b72606db168fe9747ec7ea972cce"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/GoojaraBackup.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "GoojaraBackup",
+        "internalName": "GoojaraBackup",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Movies and Series (Mostly 720p)",
+        "fileSize": 43912,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=goojara.to/&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-cd25b7cef4ef4709adc93059ccec4fe88a525f590117fce02c3140f195aecd55"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/HidoriStreamProvider.cs3",
+        "status": 1,
+        "version": 12,
+        "name": "HidoriStreamProvider",
+        "internalName": "HidoriStreamProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "HidoriStream — Streaming Anime Subtitle Indonesia",
+        "fileSize": 58969,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://v8.hidoristream.online&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-7b2b40b5ba548ef63d950646b6d869201bb7609261a5916c3f9ccce62292a24c"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/IdlixProviderBackup.cs3",
+        "status": 1,
+        "version": 51,
+        "name": "IdlixProviderBackup",
+        "internalName": "IdlixProviderBackup",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Idlix provider with active-domain API routing, detail URL normalization, provider session lifecycle, and session redeem playback flow.",
+        "fileSize": 60685,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AsianDrama"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=z2.idlixku.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-57bb06f20fbcf449d09e8ed47b9b8d222a3c5a579826850013c0e27396a5f60f"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/JuraganFilm.cs3",
+        "status": 1,
+        "version": 21,
+        "name": "JuraganFilm",
+        "internalName": "JuraganFilm",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "JuraganFilm provider for tv45.juragan.film with HTML catalog parsing, search, detail metadata, episode parsing, direct MP4/HLS links, subtitles, and extractor fallback support.",
+        "fileSize": 60426,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AsianDrama"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tv45.juragan.film&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-0ce9a7f2baa97ed1c0f697bd9f6a145c0d4bc8c275991e60741ee1bb6cc48d40"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/KazefuriProvider.cs3",
+        "status": 1,
+        "version": 13,
+        "name": "KazefuriProvider",
+        "internalName": "KazefuriProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Kazefuri",
+        "fileSize": 34955,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sv4.kazefuri.cloud&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-605eeeb534e00eeed5170f8f1f0cfda7898de6cd6d49e04142ebd6facc493d6e"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/KikoNime.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "KikoNime",
+        "internalName": "KikoNime",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Nonton donghua dan anime subtitle Indonesia dari KikoNime",
+        "fileSize": 41247,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kikonime.com&sz=128",
+        "apiVersion": 1,
+        "fileHash": "sha256-b2222c48be898a5d98d1d12a6aef2384d7f7d6f027c20ff9bcd66d9ee82c63e4"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Kissasian.cs3",
+        "status": 1,
+        "version": 7,
+        "name": "Kissasian",
+        "internalName": "Kissasian",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Kissasian",
+        "fileSize": 39096,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://kissasian.cam&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-8034c2d4acdf5026312748e445f74b86c5983cfb7f0bf322c8af7ba2e703dad1"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/KisskhProvider.cs3",
+        "status": 1,
+        "version": 19,
+        "name": "KisskhProvider",
+        "internalName": "KisskhProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "fileSize": 39826,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Anime",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kisskh.co&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-f31fe3aff7bdef30fe1d139d106b53f72ae1bff796cc9c4a598da4fa719f69af",
+        "jarFileSize": 158247,
+        "jarUrl": "https://raw.githubusercontent.com/7Escanor/StreamPulse/builds/KisskhProvider.jar",
+        "jarHash": "sha256-77e498aad9bbd996ad6453e46c81c6d4b826976f3d14b3af926032b3df04c7b5"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/KuramanimeProvider.cs3",
+        "status": 1,
+        "version": 52,
+        "name": "KuramanimeProvider",
+        "internalName": "KuramanimeProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "fileSize": 33930,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kuramanime.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-20ad13642f25c2a376b8fe4cffef27fd8b7861f18930c2d0f121b664f1d8c4ff"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/KuronimeProvider.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "KuronimeProvider",
+        "internalName": "KuronimeProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Kuronime — Streaming Anime Subtitle Indonesia",
+        "fileSize": 39462,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://play-lh.googleusercontent.com/EFMkS1T-8txjLFIl9QxjcTRLa7a7Muv08C04b7ongYgodoY_b2T3GpxzGAQEx-eitfQ=w256",
+        "apiVersion": 1,
+        "fileHash": "sha256-0b50dc122f3a415b94f6c5319a3a3b33bf6e1f8cef1f8ab790da6291150bda81"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/LayarKaca.cs3",
+        "status": 1,
+        "version": 13,
+        "name": "LayarKaca",
+        "internalName": "LayarKaca",
+        "authors": [
+            "7Escanor"
+        ],
+        "fileSize": 112537,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://tv12.lk21official.cc&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-57b1b17e45dc5a19b245e142c6db4168b8dd98bc58c5347129cc5683ec248530"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/LayarKacaProviderBackup.cs3",
+        "status": 1,
+        "version": 20,
+        "name": "LayarKacaProviderBackup",
+        "internalName": "LayarKacaProviderBackup",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Nonton dan download film & series terbaru di LK21. Streaming sub Indo gratis, kualitas HD. Tersedia drama Korea, anime, film barat, dan Asia lengkap!",
+        "fileSize": 75130,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://tv12.lk21official.cc&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-d11460cb08dc41bce30bfff7b004fd605eb64491f4a16d9a2b0478252ff2ecb7"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Moviebox.cs3",
+        "status": 1,
+        "version": 26,
+        "name": "Moviebox",
+        "internalName": "Moviebox",
+        "authors": [
+            "7Escanor"
+        ],
+        "fileSize": 122327,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://moviebox.ph&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-6ab34ea8981fe1c55e0fed12fd934a45e759ed7e123ed5d173fba863fad78089"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/MovieBoxProviderBackup.cs3",
+        "status": 1,
+        "version": 28,
+        "name": "MovieBoxProviderBackup",
+        "internalName": "MovieBoxProviderBackup",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Multi Language Movies and Series Provider",
+        "fileSize": 68934,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://movieboxhd.net&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-4f8e7755c2acc89517d4413113eee342feb503a116c319d82541d3be4674fbf7"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/NontonDrakor.cs3",
+        "status": 1,
+        "version": 10,
+        "name": "NontonDrakor",
+        "internalName": "NontonDrakor",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Provider CloudStream untuk NontonDrakor / Drakor ID - film dan serial TV subtitle Indonesia.",
+        "fileSize": 55280,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nonton.drakor-id.top&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-5fc40b26a33541ca85349bd1b1f4a8107845b80f38961f5cb034c09be5bfe037"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Noxx.cs3",
+        "status": 3,
+        "version": 11,
+        "name": "Noxx",
+        "internalName": "Noxx",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Noxx",
+        "fileSize": 50171,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://noxx.to&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-2fab181d50f7e7ec28698bf57c74408d48e5b622c632d3fc84c86f46bd954e4f"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/OppaDrama.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "OppaDrama",
+        "internalName": "OppaDrama",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "OppaDrama — Streaming Drama Korea, Movie and TV Series",
+        "fileSize": 92235,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://oppa.biz&size=128",
+        "apiVersion": 1,
+        "fileHash": "sha256-2126f954cbae89e69e7b448f4d11166a20e5ff71750b96938d6b86b469303d67"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/OtakudesuProvider.cs3",
+        "status": 1,
+        "version": 16,
+        "name": "OtakudesuProvider",
+        "internalName": "OtakudesuProvider",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "Otakudesu provider with source-backed homepage categories and genre rows from the current Otakudesu site.",
+        "fileSize": 27885,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=otakudesu.blog&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-c368420a00951b4bb642c6a335cd891a3f2cd51a47ecd0b095a1756a637502cc"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Sflix.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "Sflix",
+        "internalName": "Sflix",
+        "authors": [
+            "7Escanor"
+        ],
+        "fileSize": 35718,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime",
+            "AsianDrama"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sflix.film&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-1a61519e4b0be34ee91cb530c8f424b8aba6e520f8bde19e0dd36f79a06ce66c"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/Sokuja.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "Sokuja",
+        "internalName": "Sokuja",
+        "authors": [
+            "7Escanor"
+        ],
+        "description": "SOKUJA menyediakan koleksi anime subtitle Indonesia terlengkap. Nonton streaming dan download anime sub Indo HD gratis, update episode baru setiap hari.",
+        "fileSize": 20237,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://x6.sokuja.uk&size=128",
+        "apiVersion": 1,
+        "fileHash": "sha256-820b7be6b0acc4ae3da7b67307b86dfca27f206ac6a56bda6ed969faff47ea88"
+    },
+    {
+        "url": "https://cdn.jsdelivr.net/gh/7Escanor/StreamPulse@builds/YLNime.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "YLNime",
+        "internalName": "YLNime",
+        "authors": [
+            "7Escanor"
+        ],
+        "fileSize": 30882,
+        "repositoryUrl": "https://github.com/7Escanor/StreamPulse",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ylnime.com&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-216a10e19ed441ad036a446737122288f3685a15d2fb557438c1b1924248836c"
+    }
+]

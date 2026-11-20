@@ -1,0 +1,9 @@
+{
+    "name": "StreamPulse Cloudstream Extension",
+    "description": "Gabungan repositori ekstensi Cloudstream: StreamPulse, Cs-GizliKeyif, dan CXXX.",
+    "iconUrl": "https://github.com/7Escanor.png",
+    "manifestVersion": 1,
+    "pluginLists": [
+        "https://raw.githubusercontent.com/7Escanor/StreamPulse/builds/plugins.json"
+    ]
+}
